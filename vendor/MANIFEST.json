@@ -45,7 +45,7 @@
           "source_path": "plugin/public/agent.js"
         },
         "public/panel.js": {
-          "sha256": "32d12b4e439ca3f1ea96f21a107073c35e690f4b8754aa8b2fbaf4294d487b7a",
+          "sha256": "ca1591459ee56b47d2182d5be1f79b26d552bf4505d7f88893732bb83bea7074",
           "source_path": "plugin/public/panel.js"
         }
       },
@@ -107,10 +107,10 @@
       "plugin_version": "0.2.3"
     }
   },
-  "generated": "2026-11-20T18:00:29Z",
+  "generated": "2026-11-20T18:04:01Z",
   "shared": {
     "install.sh": {
-      "sha256": "92f3941ef1058f4123a8342313e4d96621eb39a1ab2bd12d444491f6473637ac"
+      "sha256": "a5fac8c7886c91e2116038d295ee65782083ce9d52b00305b01a413b653109cf"
     },
     "scripts/steam-machine.py": {
       "sha256": "1cada9c8fe853a396bec40609b8407f7c54fac1edccd81eaa8502c6671775344"
