@@ -1,0 +1,6 @@
+host/bin/
+host/build/
+__pycache__/
+*.pyc
+*.log
+dist/

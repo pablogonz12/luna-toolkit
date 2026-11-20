@@ -1,0 +1,8 @@
+{
+  "name": "sls-graphics",
+  "common_name": "SLS Luna Graphics",
+  "description": "Read-only detection of the machine's graphics facts for Luna: GPU and driver, lsfg-vk layers and config, OptiScaler installs including the OptiScaler Client database, and the Steam runtime",
+  "version": "0.2.0",
+  "backendType": "lua",
+  "include": []
+}

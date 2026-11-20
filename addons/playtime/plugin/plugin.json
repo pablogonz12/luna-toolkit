@@ -1,0 +1,10 @@
+{
+  "name": "sls-playtime",
+  "common_name": "SLS Playtime",
+  "description": "Native-library playtime and right-click editing for manifests and non-Steam games Official-base model: for games Steam itself tracks, the lifetime total shown in the library and the panel is Steam's own playtime (localconfig.vdf) plus any manual correction.",
+  "version": "0.6.1",
+  "backendType": "lua",
+  "include": [
+    "public"
+  ]
+}

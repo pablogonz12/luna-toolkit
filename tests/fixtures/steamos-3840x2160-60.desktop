@@ -1,0 +1,15 @@
+[Desktop Entry]
+Name=SteamOS (4K 60)
+Comment=Steam Big Picture; SDL mouse compatibility; render target 3840x2160 at 60 fps
+Exec="/home/luna/.local/bin/luna-steam-machine" --width 3840 --height 2160 --refresh 60
+TryExec=gamescope
+Icon=steam
+Terminal=false
+Type=Application
+Categories=Game;
+X-Luna-SteamOS=true
+Actions=FreePointer;
+
+[Desktop Action FreePointer]
+Name=Launch with free mouse pointer
+Exec="/home/luna/.local/bin/luna-steam-machine" --width 3840 --height 2160 --refresh 60 --mouse-mode free

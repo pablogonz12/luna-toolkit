@@ -1,0 +1,15 @@
+local H = dofile((arg[0]:match("^(.*)/[^/]*$") or ".") .. "/rtlib.lua")
+local sha = require("sha256"); local b64 = require("b64")
+H.eq(sha.hex(""), "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "sha empty")
+H.eq(sha.hex("abc"), "ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad", "sha abc")
+H.eq(sha.hex("abcdbcdecdefdefgefghfghighijhijkijkljklmklmnlmnomnopnopq"), "248d6a61d20638b8e5c026930c3e6039a33ce45964ff2167f6ecedd419db06c1", "sha 56")
+H.eq(sha.hex(string.rep("a", 1000000)), "cdc76e5c9914fb9281a1c7e284d73e67f1809a48a497200e046d39ccc7112cd0", "sha 1M")
+H.eq(#sha.digest("x"), 32, "raw len")
+for k, v in pairs({[""]="", f="Zg==", fo="Zm8=", foo="Zm9v", foob="Zm9vYg==", fooba="Zm9vYmE=", foobar="Zm9vYmFy"}) do
+  H.eq(b64.encode(k), v, "enc " .. k); H.eq(b64.decode(v), k, "dec " .. k)
+end
+H.eq(b64.decode("Zm9vYg"), "foob", "unpadded")
+H.eq(b64.decode("Zm9v!"), nil, "bad char")
+local bin = string.char(0,255,254,1,128); H.eq(b64.decode(b64.encode(bin)), bin, "binary")
+local u = require("utils"); u.set_backend_path("/x/backend"); H.eq(u.get_backend_path(), "/x/backend", "backend override")
+H.done("rt_hash")

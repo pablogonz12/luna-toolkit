@@ -1,0 +1,122 @@
+{
+  "addons": {
+    "compressor": {
+      "files": {
+        "backend/main.lua": {
+          "sha256": "3b06e867846b8c1ace8f50eb769aa98bfd61030bc96389456b8e3c20128774b7",
+          "source_path": "plugin/backend/main.lua"
+        },
+        "plugin.json": {
+          "sha256": "2d5d45dbf9eeae8790af05397bb6345896c1e32fff926be5d5db27dff4f3d48e",
+          "source_path": "plugin/plugin.json"
+        },
+        "public/panel.js": {
+          "sha256": "83840d1d8a99ba3172bbbd92d5aad7da250925887cc317a6a8d0e6b74daa6730",
+          "source_path": "plugin/public/panel.js"
+        }
+      },
+      "plugin_version": "0.3.1"
+    },
+    "graphics": {
+      "files": {
+        "backend/main.lua": {
+          "sha256": "03e865b026576e7746fe36c6a5ff2b44d813b4adf1b0dd26588e6180933c1786",
+          "source_path": "plugin/backend/main.lua"
+        },
+        "plugin.json": {
+          "sha256": "dc8386d79c977f5d3a46283af97fa1338574e40d635bf056328de1d8da89ecea",
+          "source_path": "plugin/plugin.json"
+        }
+      },
+      "plugin_version": "0.2.0"
+    },
+    "luna": {
+      "files": {
+        "backend/main.lua": {
+          "sha256": "366d5e17d221b92f73c48a08415c3c4f80e99a50eb6ddb3cc3f0c3f9040dd77e",
+          "source_path": "plugin/backend/main.lua"
+        },
+        "plugin.json": {
+          "sha256": "d22a2c8fbff508803a9b015776089fdaceef9192a739f13a44c500d894d2501d",
+          "source_path": "plugin/plugin.json"
+        },
+        "public/agent.js": {
+          "sha256": "a99e7aa614cdab447aff68ae2e09a0154ec6494cfe678e0a480b93aa0a4a22d0",
+          "source_path": "plugin/public/agent.js"
+        },
+        "public/panel.js": {
+          "sha256": "32d12b4e439ca3f1ea96f21a107073c35e690f4b8754aa8b2fbaf4294d487b7a",
+          "source_path": "plugin/public/panel.js"
+        }
+      },
+      "plugin_version": "0.14.18"
+    },
+    "playtime": {
+      "files": {
+        "backend/main.lua": {
+          "sha256": "f487677f068c38824299ab46339fa61364d4761886ea09fff7eadf0c8d3f9ce2",
+          "source_path": "plugin/backend/main.lua"
+        },
+        "plugin.json": {
+          "sha256": "3afead073e709ec52f26c23fddc1f2e35b7644def1aeed70a7b553848c128d5d",
+          "source_path": "plugin/plugin.json"
+        },
+        "public/agent.js": {
+          "sha256": "3ac97f5293ba5fa531aa0d8ab36bb7e5b1c641a346b0d6936e2a4b3b481d9b68",
+          "source_path": "plugin/public/agent.js"
+        },
+        "public/panel.js": {
+          "sha256": "fcc1bfb28aec74067d0fa6e537fc3a4e188f0fa39bc29812a3c306ea8f1f7583",
+          "source_path": "plugin/public/panel.js"
+        }
+      },
+      "plugin_version": "0.6.1"
+    },
+    "presence": {
+      "files": {
+        "backend/main.lua": {
+          "sha256": "0637b41a575d7fab94d5ac37a73391dabe99d51dca419949bc2cdc59430eadff",
+          "source_path": "plugin/backend/main.lua"
+        },
+        "plugin.json": {
+          "sha256": "f2d047a62a02fd88c17334a5e9f0af91e2d921deb022be0c99681ec8901842f2",
+          "source_path": "plugin/plugin.json"
+        },
+        "public/agent.js": {
+          "sha256": "6e9c827a3cd0de38599764b0021604536e8a52fc49b0319284594cfb992f14b6",
+          "source_path": "plugin/public/agent.js"
+        },
+        "public/panel.js": {
+          "sha256": "3a1263dcb17f0a44ee24c833e4664a6170d8344f779a26deaa268028b2c29af0",
+          "source_path": "plugin/public/panel.js"
+        }
+      },
+      "plugin_version": "0.3.2-dev.2"
+    },
+    "sgdb": {
+      "files": {
+        "backend/main.lua": {
+          "sha256": "5381949270c8fc8efe91b494373c4be75404a0864a7f8700684598a09e194b90",
+          "source_path": "plugin/backend/main.lua"
+        },
+        "plugin.json": {
+          "sha256": "9974b39811408cb86ff0e03b1a6a6524279f69e4da5da8ad59aad9ea8afe8f73",
+          "source_path": "plugin/plugin.json"
+        }
+      },
+      "plugin_version": "0.2.3"
+    }
+  },
+  "generated": "2026-11-20T18:00:29Z",
+  "shared": {
+    "install.sh": {
+      "sha256": "92f3941ef1058f4123a8342313e4d96621eb39a1ab2bd12d444491f6473637ac"
+    },
+    "scripts/steam-machine.py": {
+      "sha256": "1cada9c8fe853a396bec40609b8407f7c54fac1edccd81eaa8502c6671775344"
+    },
+    "uninstall.sh": {
+      "sha256": "556b6b0a3382272dbec8b667ef7a697fb5ec10b18f3317decd218eedb98a46fa"
+    }
+  }
+}

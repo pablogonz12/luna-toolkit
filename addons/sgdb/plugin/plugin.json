@@ -1,0 +1,8 @@
+{
+  "name": "sls-sgdb",
+  "common_name": "SLS Luna SteamGridDB",
+  "description": "SteamGridDB artwork for Luna: apply grid, hero, logo and icon images to any Steam game, with backup and restore",
+  "version": "0.2.3",
+  "backendType": "lua",
+  "include": []
+}

@@ -1,0 +1,10 @@
+{
+  "name": "sls-luna",
+  "common_name": "Luna",
+  "description": "Shell entry point for Luna's add-ons: one Luna button in Steam's menubar, one settings menu with Playtime, Presence, Compressor, HowLongToBeat, SteamGridDB, Graphics, Health, Updates, Settings and About",
+  "version": "0.14.18",
+  "backendType": "lua",
+  "include": [
+    "public"
+  ]
+}

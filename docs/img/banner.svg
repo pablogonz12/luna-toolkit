@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="1200" height="400" font-family="ui-sans-serif, system-ui, 'Motiva Sans', sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#10141b"/>
+      <stop offset="0.55" stop-color="#171a21"/>
+      <stop offset="1" stop-color="#1b2230"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.18" cy="0.92" r="0.75">
+      <stop offset="0" stop-color="#1a9fff" stop-opacity="0.30"/>
+      <stop offset="0.5" stop-color="#6a5cff" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="moon" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#c9d3de"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="400" fill="url(#bg)"/>
+  <rect width="1200" height="400" fill="url(#glow)"/>
+  <rect x="0.75" y="0.75" width="1198.5" height="398.5" rx="0" fill="none" stroke="#252d3a"/>
+
+  <!-- wordmark -->
+  <text x="96" y="205" fill="#ffffff" font-size="96" font-weight="600" letter-spacing="1">Luna</text>
+  <text x="99" y="252" fill="#8f9aa6" font-size="24" letter-spacing="0.4">panels for the Steam client on Linux</text>
+
+  <!-- rule -->
+  <line x1="99" y1="288" x2="470" y2="288" stroke="#2f3a48" stroke-width="1.5"/>
+  <text x="99" y="322" fill="#6f7b88" font-size="18">C + Lua host · no wrapper · no client patches</text>
+
+  <!-- crescent moon -->
+  <g transform="translate(880 200)">
+    <circle cx="0" cy="0" r="112" fill="url(#moon)"/>
+    <circle cx="52" cy="-30" r="100" fill="#171a21"/>
+    <circle cx="0" cy="0" r="112" fill="none" stroke="#3cb0ff" stroke-width="2" opacity="0.55"/>
+    <circle cx="0" cy="0" r="132" fill="none" stroke="#3cb0ff" stroke-width="1" opacity="0.16"/>
+  </g>
+
+  <!-- stars -->
+  <g fill="#9fb4c9" opacity="0.5">
+    <circle cx="700" cy="96" r="2.2"/>
+    <circle cx="760" cy="150" r="1.5"/>
+    <circle cx="1078" cy="90" r="1.8"/>
+    <circle cx="1120" cy="300" r="1.4"/>
+    <circle cx="640" cy="316" r="1.6"/>
+  </g>
+</svg>
